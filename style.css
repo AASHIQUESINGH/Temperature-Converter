@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: darkblue */
+}
+h1{
+    color: white;
+    /* background-color: darkblue; */
+}
+
+#main-section{
+    height: 500px;
+    width: 500px;
+    color: black;
+    /* display: flex; */
+    padding-top: 35px;
+    border: 10px solid rgb(85, 180, 171);
+    border-radius: 30px;
+    background: linear-gradient(rgb(26, 26, 124), rgb(26, 67, 26), rgb(162, 162, 21));
+    text-align: center;
+}
+
+#celsius{
+    font-size: 20px;
+    border-radius: 10px; 
+}
+
+#fahrenheit{
+    font-size: 20px;
+    border-radius: 10px;
+}
+#input-area{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: lightblue;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid cyan;
+    border-radius: 20px;
+}
+#option-button1{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 2px solid pink;
+    border-radius: 30px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    color: white;
+    margin-top: 70px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: rgb(91, 168, 87);
+    cursor: pointer;
+}
+.output-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#result{
+    height: 50px;
+    width: 350px;
+    margin-top: 80px;
+    padding-top: 15px;
+    border-radius: 50px;
+    background-color: rgb(40, 40, 129);
+    color: red;
+}
